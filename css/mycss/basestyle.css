@@ -1,0 +1,11 @@
+.header{
+    position: fixed;
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: #FF8C00;
+    width: 100%;
+}
+
+.carik_grey {
+    text-align: right;
+}
