@@ -4,8 +4,20 @@
     border-width: 0px 0px 4px 0px;
     border-color: #FF8C00;
     width: 100%;
+    padding-bottom: 1%;
 }
 
 .carik_grey {
     text-align: right;
+    position: relative;
+    float: left;
+    display: block
+
+}
+.drb_reg {
+    background-color: #FF8C00;
+    border-radius: 5%;
+}
+.bg_img_car{
+    background-image: url(/img/Red-D3D-CARDEV2-2.jpg)
 }
