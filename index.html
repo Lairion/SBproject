@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/mycss/icon_firm.css">
     <link rel="stylesheet" href="css/mycss/basestyle.css">
     <link rel="stylesheet" href="css/mycss/text_style.css">
@@ -23,14 +23,16 @@
                 <p class="text_grey text_size_16" style="margin-top:-4%">главное в деталях</p>
             </div>
             <div class="col-xs-2 col-xs-offset-4 col-sm-2 col-sm-offset-4 col-md-2 col-md-offset-4" style="margin-top:1.5%">
-                <div class="input-group-btn">
-                    <button type="button" class="btn btn-warning text_white dropdown-toggle" data-toggle="dropdown">Регистрация <span class="caret"></span></button>
-                    <ul class="dropdown-menu text_white" style="background-color: orange; border-radius:0px 5px 5px 5px; text-align:right">
-                        <li style="padding-bottom:1%">Ваш e-mail: <input type="text" name="e-mail" placeholder="Введите ваш e-mail"></li>
-                        <li style="padding-bottom:1%">Пароль: <input type="text" name="password" placeholder="Введите ваш пароль"></li>
-                        <li><button type="submit" class="btn btn-success">Регистрация</button></li>
-                    </ul>
-                </div><!-- /btn-group -->
+               <form action="#" method="post">
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-warning text_white dropdown-toggle" data-toggle="dropdown">Регистрация <span class="caret"></span></button>
+                        <ul class="dropdown-menu text_white" style="background-color: orange; border-radius:0px 5px 5px 5px; text-align:right">
+                            <li style="padding-bottom:1%">Ваш e-mail: <input type="text" name="e-mail" placeholder="Введите ваш e-mail"></li>
+                            <li style="padding-bottom:1%">Пароль: <input type="text" name="password" placeholder="Введите ваш пароль"></li>
+                            <li><button type="submit" class="btn btn-success">Регистрация</button></li>
+                        </ul>
+                    </div><!-- /btn-group -->
+                </form>
             </div>
         </div>
         <div class="row bg_img_car" style="height:40%">
@@ -45,20 +47,45 @@
                     </div>
                     <div class="row">
                        <div class="col-xs-12 col-sm-12 col-md-12 input-group" style="text-align:center">
-                           <input type="text" class="form-control" placeholder="Поиск деталей" style="margin:0">
-                           <span class="form-control-feedback">
-                           <button class="btn btn-default glyphicon glyphicon-search"></button>
-                           </span>
+                          <form action="#" method="get">
+                               <input type="text" class="form-control" placeholder="Поиск деталей" style="margin:0">
+                               <span class="form-control-feedback glyphicon glyphicon-search text_orange">
+                               </span>
+                           </form>
                        </div>
 
                     </div>
                 </div>
 
-                </div>
+            </div>
         </div>
-    </div>
-
-
-
+        <div class="row">
+            <div class="container">
+                <form action="#" method="get">
+                    <div class="row">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 search_colm">
+                            <p style="font-size:30px">Поиск по марке машины</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                       <div class="col-xs-8 col-sm-8 col-md-8 col-xs-offset-3 col-sm-offset-3 col-md-offset-3" style="margin-top:6px; margin-bottom:6px;padding-left:0px">
+                            <div class="iconFirm col1 row1Col1"></div>
+                            <div class="iconFirm col2 row1Col2"></div>
+                            <div class="iconFirm col3 row1Col3"></div>
+                            <div class="iconFirm col4 row1Col4"></div>
+                            <div class="iconFirm col5 row1Col5"></div>
+                        </div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-xs-offset-3 col-sm-offset-3 col-md-offset-3" style="margin-top:6px; margin-bottom:6px; padding-left:0px">
+                            <div class="iconFirm col1 row2Col1"></div>
+                            <div class="iconFirm col2 row2Col2"></div>
+                            <div class="iconFirm col3 row2Col3"></div>
+                            <div class="iconFirm col4 row2Col4"></div>
+                            <div class="iconFirm col5 row2Col5"></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+  </div>
 </body>
 </html>

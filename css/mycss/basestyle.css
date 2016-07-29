@@ -38,3 +38,9 @@
     padding-right: 2px;
 
 }
+.search_colm{
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: #FF8C00;
+    padding-bottom: 1%;
+}

@@ -1,6 +1,26 @@
-.icon_firm {
-  display: block;
-  float: left;
-  margin: 0 6px 0 0;
-  background: url('sprite.png') no-repeat;
+.iconFirm {
+    height: 89px;
+    display: block;
+    float: left;
+    margin: 0px 6px 0px 6px;
+    background: url('/img/marks.png') no-repeat;
 }
+
+.iconFirm.col1{width: 115px;}
+.iconFirm.col2{width: 110px;}
+.iconFirm.col3{width: 105px;}
+.iconFirm.col4{width: 95px;}
+.iconFirm.col5{width: 115px;}
+.iconFirm.row1Col1 { background-position: 0px 0px; }
+.iconFirm.row1Col2 { background-position: -131px 0px; }
+.iconFirm.row1Col3 { background-position: -252px 0px; }
+.iconFirm.row1Col4 { background-position: -371px 0px; }
+.iconFirm.row1Col5 { background-position: -480px 0px;}
+
+.iconFirm.row2Col1 { background-position: 0px -90px; }
+.iconFirm.row2Col2 { background-position: -131px -90px; }
+.iconFirm.row2Col3 { background-position: -252px -90px; }
+.iconFirm.row2Col4 { background-position: -371px -90px; }
+.iconFirm.row2Col5 { background-position: -480px -90px;}
+
+
