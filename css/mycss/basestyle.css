@@ -4,7 +4,15 @@
     border-color: #FF8C00;
     padding-bottom: 1%;
 }
-
+.footer{
+    background-color:#FF8C00
+}
+.drp_menu{
+    background-color: orange;
+    border-radius:0px 5px 5px 5px;
+    text-align:right;
+    padding:3%
+}
 .carik_grey {
     text-align: right;
     position: relative;
@@ -18,6 +26,12 @@
     float: left;
     display: block
 
+}
+.carik_white{
+    text-align: right;
+    position: relative;
+    float: left;
+    display: block;
 }
 .drb_reg {
     background-color: #FF8C00;
