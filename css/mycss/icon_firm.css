@@ -2,7 +2,7 @@
     height: 89px;
     display: block;
     float: left;
-    margin: 0px 6px 0px 6px;
+    margin: 0px 6px 0px 0px;
     background: url('/img/marks.png') no-repeat;
 }
 
@@ -11,16 +11,58 @@
 .iconFirm.col3{width: 105px;}
 .iconFirm.col4{width: 95px;}
 .iconFirm.col5{width: 115px;}
-.iconFirm.row1Col1 { background-position: 0px 0px; }
-.iconFirm.row1Col2 { background-position: -131px 0px; }
-.iconFirm.row1Col3 { background-position: -252px 0px; }
-.iconFirm.row1Col4 { background-position: -371px 0px; }
-.iconFirm.row1Col5 { background-position: -480px 0px;}
 
-.iconFirm.row2Col1 { background-position: 0px -90px; }
-.iconFirm.row2Col2 { background-position: -131px -90px; }
-.iconFirm.row2Col3 { background-position: -252px -90px; }
-.iconFirm.row2Col4 { background-position: -371px -90px; }
-.iconFirm.row2Col5 { background-position: -480px -90px;}
+.iconFirm.row1{height: 87px;}
+.iconFirm.row2{height: 83px;}
+.iconFirm.row3{height: 72px;}
+.iconFirm.row4{height: 81px;}
+.iconFirm.row5{height: 94px;}
+.iconFirm.row6{height: 95px;}
+.iconFirm.row7{height: 95px;}
+.iconFirm.row8{height: 90px;}
 
+.iconFirm.row1Col1Img { background-position: -5px 0px; }
+.iconFirm.row1Col2Img { background-position: -131px 0px; }
+.iconFirm.row1Col3Img { background-position: -252px 0px; }
+.iconFirm.row1Col4Img { background-position: -370px 0px; }
+.iconFirm.row1Col5Img { background-position: -480px 0px;}
+
+.iconFirm.row2Col1Img { background-position: -5px -95px; }
+.iconFirm.row2Col2Img { background-position: -131px -95px; }
+.iconFirm.row2Col3Img { background-position: -252px -95px; }
+.iconFirm.row2Col4Img { background-position: -371px -95px; }
+.iconFirm.row2Col5Img { background-position: -480px -95px;}
+
+.iconFirm.row3Col1Img { background-position: -5px -190px; }
+.iconFirm.row3Col2Img { background-position: -131px -187px; }
+.iconFirm.row3Col3Img { background-position: -252px -187px; }
+.iconFirm.row3Col4Img { background-position: -371px -187px; }
+.iconFirm.row3Col5Img { background-position: -480px -187px;}
+
+.iconFirm.row4Col1Img { background-position: -5px -270px; }
+.iconFirm.row4Col2Img { background-position: -131px -270px; }
+.iconFirm.row4Col3Img { background-position: -252px -270px; }
+.iconFirm.row4Col4Img { background-position: -370px -270px; }
+.iconFirm.row4Col5Img { background-position: -479px -270px;}
+
+.iconFirm.row5Col1Img { background-position: -5px -360px; }
+.iconFirm.row5Col2Img { background-position: -131px -360px; }
+.iconFirm.row5Col3Img { background-position: -252px -360px; }
+.iconFirm.row5Col4Img { background-position: -370px -360px; }
+.iconFirm.row5Col5Img { background-position: -479px -360px;}
+
+.iconFirm.row6Col1Img { background-position: -5px -465px;}
+.iconFirm.row6Col2Img { background-position: -131px -465px;}
+.iconFirm.row6Col3Img { background-position: -252px -465px;}
+.iconFirm.row6Col4Img { background-position: -370px -465px;}
+.iconFirm.row6Col5Img { background-position: -479px -465px;}
+
+.iconFirm.row7Col1Img { background-position: -5px -570px;}
+.iconFirm.row7Col2Img { background-position: -131px -570px;}
+.iconFirm.row7Col3Img { background-position: -252px -570px;}
+.iconFirm.row7Col4Img { background-position: -370px -570px;}
+.iconFirm.row7Col5Img { background-position: -479px -570px;}
+
+.iconFirm.row8Col1Img { background-position: -5px -680px;}
+.iconFirm.row8Col2Img { background-position: -131px -680px;}
 
